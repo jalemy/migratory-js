@@ -2,7 +2,7 @@
   "name": "migratory-js",
   "version": "1.0.0",
   "description": "convert decimal latitude and longitude to degrees, minutes, seconds and degrees, minutes",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "jalemy",
   "license": "MIT",
   "scripts": {
