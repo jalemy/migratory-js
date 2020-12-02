@@ -6,6 +6,7 @@
   "author": "jalemy",
   "license": "MIT",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "test": "jest",
     "build": "tsc"
   },
