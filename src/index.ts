@@ -1,4 +1,4 @@
-import { DegreeConverter } from './DegreeConverter'
+import { DecimalConverter } from './DecimalConverter'
 import { GeoNumber } from './GeoNumber'
 
-export { DegreeConverter, GeoNumber }
+export { DecimalConverter, GeoNumber }
