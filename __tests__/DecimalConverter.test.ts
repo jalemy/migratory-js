@@ -1,10 +1,10 @@
-import { DegreeConverter } from '../src/DegreeConverter'
+import { DecimalConverter } from '../src/DecimalConverter'
 
-describe('GeoConverter(-15.293, 135.12)', () => {
-  let instance: DegreeConverter
+describe('DecimalConverter(-15.293, 135.12)', () => {
+  let instance: DecimalConverter
 
   beforeEach(() => {
-    instance = new DegreeConverter(-15.293, 135.12)
+    instance = new DecimalConverter(-15.293, 135.12)
   })
 
   test('toDms() is ...', () => {
