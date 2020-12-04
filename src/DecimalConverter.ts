@@ -3,7 +3,7 @@
  * @module DecimalConverter
  */
 
-import { GeoNumber } from './GeoNumber'
+import { GeoNumber, dms, dmm } from './GeoNumber'
 
 /**
  * class for converting latitude and longitude of decimal number
@@ -58,18 +58,8 @@ export class DecimalConverter {
    * @memberof DecimalConverter
    */
   public toDms(): {
-    latitude: {
-      degree: number
-      minute: number
-      second: number
-      direction: string
-    }
-    longitude: {
-      degree: number
-      minute: number
-      second: number
-      direction: string
-    }
+    latitude: dms
+    longitude: dms
   } {
     return {
       latitude: this.latitude.toDms(),
@@ -89,8 +79,8 @@ export class DecimalConverter {
    * @memberof DecimalConverter
    */
   public toDmm(): {
-    latitude: { degree: number; minute: number; direction: string }
-    longitude: { degree: number; minute: number; direction: string }
+    latitude: dmm
+    longitude: dmm
   } {
     return {
       latitude: this.latitude.toDmm(),

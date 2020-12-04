@@ -15,7 +15,7 @@ const DIRECTION = {
  *
  * @interface dms
  */
-interface dms {
+export interface dms {
   degree: number
   minute: number
   second: number
@@ -28,7 +28,7 @@ interface dms {
  *
  * @interface dmm
  */
-interface dmm {
+export interface dmm {
   degree: number
   minute: number
   direction: string
@@ -38,7 +38,6 @@ interface dmm {
 /**
  * class to represent a single decimal latitude or longitude
  *
- * @export
  * @class GeoNumber
  */
 export class GeoNumber {
