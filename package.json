@@ -10,6 +10,26 @@
     "test": "jest",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalemy/migratory-js.git"
+  },
+  "homepage": "https://github.com/jalemy/migratory-js",
+  "keywords": [
+    "DMS",
+    "dms",
+    "DMM",
+    "dmm",
+    "decimal",
+    "degree",
+    "minute",
+    "second",
+    "geo",
+    "gis"
+  ],
+  "bugs": {
+    "url": "https://github.com/jalemy/migratory-js/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.15",
