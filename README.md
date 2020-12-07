@@ -2,6 +2,10 @@
 
 Library for convert decimal latitude and longitude to degrees, minutes, seconds and degrees, minutes.
 
+[![codecov](https://codecov.io/gh/jalemy/migratory-js/branch/main/graph/badge.svg?token=81KBBJSNTU)](https://codecov.io/gh/jalemy/migratory-js)
+
+![main ci](https://github.com/jalemy/migratory-js/workflows/main%20ci/badge.svg)
+
 ## Installation
 
 ```
